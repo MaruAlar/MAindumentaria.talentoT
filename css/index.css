@@ -78,28 +78,23 @@ nav ul li a{
     margin: 20px;
 }
 
-.imagenes {
+
+.productos {
     display: flex;
     flex-direction: column;
     justify-content: baseline;
     align-items: center;
-    margin-top: 80px ;
 }
-p{
-    margin: 45px;
-    font-size: 25px;
+.texto{
+    margin: 80px 20px;
+    font-size: 30px;
 }
-.superior img{
-    width: 250px;
-    height: 250px;
-    border-radius: 80px;
-    margin: 20px;
-}
-.inferior img{
-    width: 250px;
-    height: 250px;
-    border-radius: 80px;
-    margin: 20px;
+
+
+
+#imagenes-card {
+    height: 100px;
+    width: 100px;
 }
 
 .seccion2{
