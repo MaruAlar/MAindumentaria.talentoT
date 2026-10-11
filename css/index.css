@@ -78,18 +78,28 @@ nav ul li a{
     margin: 20px;
 }
 
-
-.productos {
-    display: flex;
-    flex-direction: column;
-    justify-content: baseline;
-    align-items: center;
-}
 .texto{
     margin: 80px 20px;
     font-size: 30px;
 }
 
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.producto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid rgb(98, 98, 99);
+}
 
 
 #imagenes-card {
